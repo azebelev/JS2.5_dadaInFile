@@ -1,0 +1,23 @@
+{
+  "name": "server-monga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "rules": {
+    "no-console": "off"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-sessions": "^1.0.6",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "session-file-store": "^1.5.0",
+    "uuid": "^8.3.2"
+  }
+}
